@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 370px;
+    margin-left: 35px;
+
+}
+
+
+.caixa-superior {
+    background-image: url("./img/D&C.png");
+    background-size: cover;
+    background-repeat: no;
+    height: 120vh;
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: white;
+    display: inline;
+
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: white;
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 40px;
+    position: relative;
+    
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 17px;
+    color: #252B42;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #737373;
+    color: white;
+}
+
+
+.caixa-central{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+#titulo-meio {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+   
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #EEF6FF;
+    border-radius: 11px 11px;
+}
+
+
+.titulo-card {
+    background: #737373;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
